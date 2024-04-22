@@ -14,14 +14,16 @@ const Navbar = () => {
         <img className="logo" src={logo} alt="" />
       </div>
       <div className="nav-middle flex-div">
-        <input type="text" placeholder="search" />
-        <img src={search_icon} alt="" />
+        <div className="search-box flex-div">
+          <input type="text" placeholder="search" />
+          <img src={search_icon} alt="" />
+        </div>
       </div>
       <div className="nav-right flex-div">
         <img src={more_icon} alt="" />
         <img src={upload_icon} alt="" />
         <img src={notification_icon} alt="" />
-        <img src={profile_icon} alt="" />
+        <img className="user-icon" src={profile_icon} alt="" />
       </div>
     </nav>
   );
