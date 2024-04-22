@@ -5,7 +5,7 @@ import search_icon from '../../assets/search.png';
 import more_icon from '../../assets/more.png';
 import upload_icon from '../../assets/upload.png';
 import notification_icon from '../../assets/notification.png';
-import profile_icon from '../../assets/profile.png';
+import profile_icon from '../../assets/jack.png';
 const Navbar = () => {
   return (
     <nav className="flex-div">
